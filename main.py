@@ -5,6 +5,8 @@ import os
 import requests
 from sentence_transformers import SentenceTransformer
 
+#1.download ollama
+#2.on terminal, "ollama run mistral"
 
 class ChocolateVectorDB:
     def __init__(self):
